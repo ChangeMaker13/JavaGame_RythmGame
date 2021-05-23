@@ -1,0 +1,261 @@
+		double gap = 512.82 / 4;	//128.205
+		int startTime = (int)gap * 36;
+		//0 16 1
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 0), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 4), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 6), 2, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 8), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 12), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 14), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//16 32 2
+		
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 16), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 20) + (int)(gap * 8), 2, NOTE_TYPE.LONG, (int)(gap * 8)));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 24), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 24), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 28), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 28), 3, NOTE_TYPE.NORMAL, 0));
+		
+		//32 48 3
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 32), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 32), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 36), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 36), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 40) + (int)(gap * 8), 2, NOTE_TYPE.LONG, (int)(gap * 8)));
+		
+		//48 64 => 4
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 48), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 52), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 56), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 60), 3, NOTE_TYPE.NORMAL, 0));
+		
+		//64 80 => 5
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 64), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 68), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 72), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 76), 3, NOTE_TYPE.NORMAL, 0));
+		
+		//80 96 => 6
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 80), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 84), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 88), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 92), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//96 112 => 7
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 96), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 98), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 100), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 104), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 106), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 108), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//112 128 => 8
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 112), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 114), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 116), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 118), 2, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 120), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 122), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 124), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 126), 2, NOTE_TYPE.NORMAL, 0));
+		
+		//128 144 => 9
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 128), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 130), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 132), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 134), 2, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 136), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 138), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 140), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 142), 2, NOTE_TYPE.NORMAL, 0));
+				
+		//144 160 => 10
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 144 + (int)(gap*4)), 0, NOTE_TYPE.LONG, (int)(gap*4)));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 148 + (int)(gap*4)), 1, NOTE_TYPE.LONG, (int)(gap*4)));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 152 + (int)(gap*4)), 3, NOTE_TYPE.LONG, (int)(gap*4)));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * 156 + (int)(gap*4)), 4, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//160 176 => 11
+		int loc = 160;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4) + (int)(gap*4)), 3, NOTE_TYPE.LONG, (int)(gap*4)));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 1, NOTE_TYPE.LONG, (int)(gap*4)));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12) + (int)(gap*4)), 0, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//176 192 => 12
+		loc = 176;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * loc + (int)(gap*16)), 2, NOTE_TYPE.LONG, (int)(gap*16)));
+		
+		//13
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 3, NOTE_TYPE.NORMAL, 0));
+		
+		//14
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//15
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+2)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+6)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+10)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+14)), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//16 æ‡38√ 
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+2)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+6)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+10)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+14)), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//17
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 0, NOTE_TYPE.NORMAL, 0));
+		
+		//18
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 2, NOTE_TYPE.NORMAL, 2));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 2, NOTE_TYPE.NORMAL, 2));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 2, NOTE_TYPE.NORMAL, 2));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 1, NOTE_TYPE.NORMAL, 1));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 3, NOTE_TYPE.NORMAL, 3));
+		
+		//19
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 2, NOTE_TYPE.NORMAL, 2));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 2, NOTE_TYPE.NORMAL, 2));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 2, NOTE_TYPE.NORMAL, 2));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 1, NOTE_TYPE.NORMAL, 1));
+
+		//20
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 3, NOTE_TYPE.NORMAL, 0));
+		
+		//21
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//22
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+2)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+6)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+10)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+14)), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//23
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+2)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+6)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+10)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+14)), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//24
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+6)), 2, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 4, NOTE_TYPE.NORMAL, 0));
+		
+		//25
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+6)), 2, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 0, NOTE_TYPE.NORMAL, 0));
+		
+		//26
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 3, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//27
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 3, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//28
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 3, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//29
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 3, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//30
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 1, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//31
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 1, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//32
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 1, NOTE_TYPE.LONG, (int)(gap*4)));
+		
+		//33
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8) + (int)(gap*4)), 1, NOTE_TYPE.LONG, (int)(gap*4)));
+
+		//34
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 2, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 2, NOTE_TYPE.NORMAL, 0));
+		
+		//35
+		loc += 16;
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc)), 0, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+4)), 1, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+6)), 3, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+8)), 4, NOTE_TYPE.NORMAL, 0));
+		noteInfos.add(new NoteInfo((int)(startTime + gap * (loc+12)), 2, NOTE_TYPE.NORMAL, 0));
+		
